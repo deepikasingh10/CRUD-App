@@ -1,0 +1,58 @@
+<!-- Heading for Form -->
+<h1 class="head">Employee Form</h1>
+<form [formGroup]="empForm" (ngSubmit)="onFormSubmit()">
+    <!-- Using Angular Material -->
+    <div mat-dialog-content class="content">
+        <!-- Row for firstname and lastname -->
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>Title</mat-label>
+                <input matInput type="text" placeholder="Ex. Movie Name" formControlName="firstname">
+            </mat-form-field>
+            </div>
+            <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>Language</mat-label>
+                <input matInput type="text" placeholder="Ex. English" formControlName="lastname">
+            </mat-form-field>
+        </div>
+
+        <!-- Row for email and date of birth -->
+         <div class="row">
+            
+            <mat-form-field appearance="outline">
+                <mat-label>Release Date</mat-label>
+                <input matInput [matDatepicker]="picker" formControlName="dob">
+                <mat-hint>MM/DD/YYYY</mat-hint>
+                <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-datepicker #picker></mat-datepicker>
+            </mat-form-field>
+        </div> 
+
+
+        <!-- Row for education and company -->
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>Type</mat-label>
+                <mat-select formControlName="education">
+                    <mat-option *ngFor="let val of education" [value]="val">{{val}}
+                    </mat-option>
+                </mat-select>
+            </mat-form-field>
+            </div>
+            <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>Rating</mat-label>
+                <input matInput placeholder="Ex. 8" formControlName="company">
+            </mat-form-field>
+        </div>
+
+       
+    </div>
+
+    <!-- Buttons for cancel and save/update -->
+    <div mat-Dialog-Actions class="action">
+        <button mat-raised-button class="btn" type="button" [mat-dialog-close]="false" style="width: 20rem; margin-right: 5px;">Cancel</button>
+        <button mat-raised-button class="btn" color="primary" type="submit" style="width: 20rem;">{{data ? 'Update': 'Save'}}</button>
+    </div>
+</form>

@@ -1,0 +1,117 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "employees": [
+    {
+      "firstname": "Deepika",
+      "lastname": "Singh",
+      "email": "singh@gmail.com",
+      "dob": "2021-07-12T18:30:00.000Z",
+      "gender": "female",
+      "education": "Graduate",
+      "company": "Google",
+      "experience": 1,
+      "package": 9,
+      "id": 1
+    },
+    {
+      "firstname": "Abhishek",
+      "lastname": "Singh",
+      "email": "abc@gmail.com",
+      "dob": "2016-02-01T18:30:00.000Z",
+      "gender": "male",
+      "education": "Diploma",
+      "company": "Big Company",
+      "experience": 3,
+      "package": 9,
+      "id": 2
+    },
+    {
+      "firstname": "Riya",
+      "lastname": "Chaterjee",
+      "email": "riya@gmail.com",
+      "dob": "2023-09-18T18:30:00.000Z",
+      "gender": "female",
+      "education": "Post Graduate",
+      "company": "Wipro",
+      "experience": 1,
+      "package": 4,
+      "id": 3
+    },
+    {
+      "firstname": "Suchi",
+      "lastname": "Tiwari",
+      "email": "suchi@gmail.com",
+      "dob": "1992-06-08T18:30:00.000Z",
+      "gender": "female",
+      "education": "Graduate",
+      "company": "Infosys",
+      "experience": 4,
+      "package": 19,
+      "id": 4
+    },
+    {
+      "firstname": "Shreya",
+      "lastname": "Sharma",
+      "email": "sharma@gmail.com",
+      "dob": "2023-10-09T18:30:00.000Z",
+      "gender": "female",
+      "education": "Post Graduate",
+      "company": "Google",
+      "experience": 2,
+      "package": 6,
+      "id": 7
+    },
+    {
+      "firstname": "Ram",
+      "lastname": "Shukla",
+      "email": "ram@gmail.com",
+      "dob": "2023-10-24T18:30:00.000Z",
+      "gender": "",
+      "education": "Post Graduate",
+      "company": "xyz",
+      "experience": 3,
+      "package": 6,
+      "id": 8
+    },
+    {
+      "firstname": "decenuveiu",
+      "lastname": "kjdiuegfye",
+      "dob": "2023-10-26T18:30:00.000Z",
+      "education": "Post Graduate",
+      "company": "hdyud",
+      "id": 9
+    },
+    {
+      "firstname": "dipti",
+      "lastname": "sharma",
+      "dob": "2023-10-27T18:30:00.000Z",
+      "education": "Post Graduate",
+      "company": "ejdi",
+      "id": 10
+    },
+    {
+      "firstname": "kjxhwuix",
+      "lastname": "wjhiuw",
+      "dob": "2023-10-19T18:30:00.000Z",
+      "education": "Documentry",
+      "company": "6.7",
+      "id": 11
+    }
+  ]
+}
